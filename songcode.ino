@@ -10,7 +10,7 @@ int dothalf = 2000;
 void setup()
 {
   for (int i =0; i < 3; i++){
-
+    // test comment
 }
 
 }
