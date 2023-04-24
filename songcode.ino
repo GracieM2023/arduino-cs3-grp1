@@ -14,6 +14,8 @@ int D0 = 18.35;
 
 int output = 13;
 
+int output2 = 15;
+
 int Maintempo = 285;
 
 int tempo = 0.65 * Maintempo;
@@ -297,4 +299,232 @@ delay(smallbreak);
 }
 }  // put your main code here, to run repeatedly:
 
+void loop() 
+{
+for (int i=0; i<2; i++){
+
+noTone(output2);
+delay(fullrest*2);
+tone(output, Ef0);
+delay(fullrest);
+noTone(output2);
+delay(smallbreak);
+
+tone(output2, Bf4);
+delay(fullrest);
+noTone(output2);
+delay(smallbreak);
+
+tone(output2, Ef0);
+delay(fullrest);
+noTone(output2);
+delay(smallbreak);
+
+tone(output2, Bf4);
+delay(fullrest);
+noTone(output2);
+delay(smallbreak);
+
+tone(output2, Ef0);
+delay(fullrest);
+noTone(output2);
+delay(smallbreak);
+
+tone(output2, Bf4);
+delay(fullrest);
+noTone(output);
+delay(smallbreak);
+
+tone(output2, Ef0);
+delay(fullrest);
+noTone(output2);
+delay(smallbreak);
+
+tone(output2, Bf4);
+delay(fullrest);
+noTone(output2);
+delay(smallbreak);
+
+tone(output2, Ef0);
+delay(fullrest);
+noTone(output2);
+delay(smallbreak);
+
+tone(output2, Bf4);
+delay(fullrest);
+noTone(output2);
+delay(smallbreak);
+
+tone(output2, Ef0);
+delay(fullrest);
+noTone(output2);
+delay(smallbreak);
+
+tone(output2, Bf4);
+delay(fullrest);
+noTone(output2);
+delay(smallbreak);
+
+tone(output2, Ef0);
+delay(fullrest);
+noTone(output2);
+delay(smallbreak);
+
+tone(output2, Bf4);
+delay(fullrest);
+noTone(output2);
+delay(smallbreak);
+
+tone(output2, Ef0);
+delay(fullrest);
+noTone(output2);
+delay(smallbreak);
+
+tone(output2, Bf4);
+delay(fullrest);
+noTone(output2);
+delay(smallbreak);
+
+tone(output2, Ef0);
+delay(fullrest);
+noTone(output2);
+delay(smallbreak);
+
+tone(output2, Bf4);
+delay(fullrest);
+noTone(output2);
+delay(smallbreak);
+
+tone(output2, Ef0);
+delay(fullrest);
+noTone(output2);
+delay(smallbreak);
+
+tone(output2, Bf4);
+delay(fullrest);
+noTone(output2);
+delay(smallbreak);
+
+tone(output2, Ef0);
+delay(fullrest);
+noTone(output2);
+delay(smallbreak);
+
+tone(output2, Bf4);
+delay(fullrest);
+noTone(output2);
+delay(smallbreak);
+
+tone(output2, Ef0);
+delay(fullrest);
+noTone(output2);
+delay(smallbreak);
+
+tone(output2, Bf4);
+delay(fullrest);
+noTone(output2);
+delay(smallbreak);
+
+tone(output2, Ef0);
+delay(fullrest);
+noTone(output2);
+delay(smallbreak);
+
+tone(output2, Bf0);
+delay(fullrest);
+noTone(output2);
+delay(smallbreak);
+
+tone(output2, Ef0);
+delay(fullrest);
+noTone(output2);
+delay(smallbreak);
+
+tone(output2, Bf0);
+delay(fullrest);
+noTone(output2);
+delay(smallbreak);
+
+tone(output2, Ef0);
+delay(fullrest);
+noTone(output2);
+delay(smallbreak);
+
+tone(output2, Bf0);
+delay(fullrest);
+noTone(output2);
+delay(smallbreak);
+
+tone(output2, Ef0);
+delay(fullrest);
+noTone(output2);
+delay(smallbreak);
+
+tone(output2, Bf0);
+delay(fullrest);
+noTone(output2);
+delay(smallbreak);
+
+tone(output2, Ef0);
+delay(fullrest);
+noTone(output2);
+delay(smallbreak);
+
+tone(output2, Bf4);
+delay(fullrest);
+noTone(output2);
+delay(smallbreak);
+
+tone(output2, Ef0);
+delay(fullrest);
+noTone(output2);
+delay(smallbreak);
+
+tone(output2, Bf4);
+delay(fullrest);
+noTone(output2);
+delay(smallbreak);
+
+tone(output2, Ef0);
+delay(fullrest);
+noTone(output2);
+delay(smallbreak);
+
+tone(output2, Bf4);
+delay(fullrest);
+noTone(output2);
+delay(smallbreak);
+
+tone(output2, Ef0);
+delay(fullrest);
+noTone(output2);
+delay(smallbreak);
+
+tone(output2, Bf4);
+delay(fullrest);
+noTone(output2);
+delay(smallbreak);
+
+tone(output2, Ef0);
+delay(fullrest);
+noTone(output2);
+delay(smallbreak);
+
+tone(output2, Bf4);
+delay(fullrest);
+noTone(output2);
+delay(smallbreak);
+
+tone(output2, Ef0);
+delay(fullrest);
+noTone(output2);
+delay(smallbreak);
+
+tone(output2, Ef0);
+delay(fullrest);
+noTone(output2);
+delay(smallbreak);
+
+}
+}
 
