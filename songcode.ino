@@ -14,14 +14,14 @@ int D0 = 18.35;
 
 int output = 13;
 
-int Maintempo = 285;
+int Maintempo = 1800;
 
 int tempo = 0.65 * Maintempo;
 
 int dothalf = tempo * (10/9);
 int smallbreak = 200;
 int doublebreak = 400;
-int fullrest = 1200;
+int fullrest = 800;
 int halfnote = Maintempo/2;
 int triple = Maintempo/3;
 int quarter = Maintempo/4;
@@ -294,6 +294,9 @@ tone(output, Bf0);
 delay(fullrest);
 noTone(output);
 delay(smallbreak);
+
+
+
 }
 }  // put your main code here, to run repeatedly:
 
